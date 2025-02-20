@@ -8,7 +8,7 @@ def welcome():
 
 @app.route("/index",methods=["GET"])
 def learning():
-    return "I am learning flask :)"
+    return "<h1>I am learning flask :)</h1>"
 
 if __name__ == "__main__":
     app.run(debug=True)

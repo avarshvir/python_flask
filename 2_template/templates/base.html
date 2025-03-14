@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %} 
+        {% endblock %} 
+        - Flask App
+    </title>
+</head>
+
+<style>
+    nav a{
+        color: red;
+        font-size: 3em;
+        margin-left: 50px;
+        text-decoration: none;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, a2);
+        background-color: #f9f9f9;
+    }
+
+    nav a:hover{
+        color:chartreuse;
+        background-color:chocolate;
+    }
+
+</style>
+<body>
+    <nav>
+        <a href="{{url_for('home')}}">Home</a>
+        <a href="{{url_for('about')}}">About</a>
+        <a href="product">Product</a>
+    </nav>
+
+{% block content %} {% endblock %}
+    
+</body>
+</html>

@@ -13,8 +13,8 @@ def home(username="Guest"):
 
 with app.test_request_context(): 
     print(url_for('index'))
-    print(url_for('home',username= 'arshvir naranch'))
-    print(url_for('home',username = 'arshvir naranch', password='TopS3cret'))
+    print(url_for('home',username= 'Er. Arshvir'))
+    print(url_for('home',username = 'Er. Arshvir', password='TopS3cret'))
 
 if __name__ == ('__main__'):
     app.run(debug = True)

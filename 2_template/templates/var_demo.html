@@ -1,0 +1,12 @@
+<h1>Hello from {{context.username}}</h1>
+<h1>Please don't disclose my password as <i>{{context['password']}}</i></h1>
+
+{% set no = 7 %}
+<h3>The no is {{no}}</h3>
+
+{% with na = 10 %}
+<h3>The na is {{na}}</h3>
+{% endwith %}
+
+<h3>The na is {{na}}</h3>
+<h3>The no is {{no}}</h3>

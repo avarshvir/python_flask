@@ -1,0 +1,29 @@
+<table border="2">
+    <thead>
+        <th>
+            Status Name
+        </th>
+        <th>
+            Status Code
+        </th>
+        <th>
+            Status Description
+        </th>
+    </thead>
+    <tbody>
+        {% for a_status in statuses: %}
+        <tr>
+            <td>
+                {{ a_status.name }}
+            </td>
+            <td>
+                {{ a_status.value }}
+            </td>
+            <td>
+                {{ a_status.description }}
+            </td>
+        </tr>
+        {% endfor %}
+
+    </tbody>
+</table>

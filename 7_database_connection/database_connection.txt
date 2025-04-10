@@ -3,3 +3,5 @@ Python flask support many type of DBMS:
 - MySQL
 - MongoDB 
 - and more....
+
+-> SQLite = By Default 

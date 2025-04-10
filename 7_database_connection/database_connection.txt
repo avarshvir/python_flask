@@ -1,1 +1,5 @@
-Python support 
+Python flask support many type of DBMS:
+- SQLite
+- MySQL
+- MongoDB 
+- and more....

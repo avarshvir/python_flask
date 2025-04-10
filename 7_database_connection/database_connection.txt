@@ -5,3 +5,4 @@ Python flask support many type of DBMS:
 - and more....
 
 -> SQLite = By Default 
+-> MySQL, MongoDB, and more.... = Required Dependencies
